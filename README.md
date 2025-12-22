@@ -26,6 +26,7 @@ Giải nén file vừa tải.
 
 Copy toàn bộ các thư mục model và file .pkl vào Thư mục gốc của dự án (ngang hàng với folder backend và frontend).
 Cấu trúc:
+```text
 MY-PROJECT/
 ├── backend/               # Mã nguồn Backend
 ├── frontend/              # Mã nguồn Frontend
@@ -43,6 +44,7 @@ MY-PROJECT/
 │
 ├── .gitignore
 └── README.md
+```
 
 ### Bước 3: Cài đặt môi trường ảo với requirements.txt
 
