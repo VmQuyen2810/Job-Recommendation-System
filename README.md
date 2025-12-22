@@ -26,4 +26,4 @@ Giải nén file vừa tải.
 
 Copy toàn bộ các thư mục model và file .pkl vào Thư mục gốc của dự án (ngang hàng với folder backend và frontend).
 
-## Bước 3: Cai đặt môi trường ảo với requirements.txt
+## Bước 3: Cài đặt môi trường ảo với requirements.txt
