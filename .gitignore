@@ -60,7 +60,6 @@ labse_model_vn_basic/
 labse_model_vn_upgrade/
 paraphrase_multilingual_mpnet*/
 word2vec*/
-data/
 
 # Chặn các định dạng file nặng (Model weights, embeddings)
 *.pkl
