@@ -1,0 +1,101 @@
+# =====================================
+# 1. FRONTEND RÁC (NodeJS/React/Vite)
+# =====================================
+# Thư viện (Rất nặng)
+**/node_modules/
+
+# Build output
+frontend/dist/
+frontend/build/
+frontend/out/
+
+# Logs (File nhật ký lỗi)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing & Linting Cache
+frontend/coverage/
+frontend/.eslintcache
+
+# Môi trường Local (Chứa key bí mật)
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# =====================================
+# 2. BACKEND RÁC (Python)
+# =====================================
+# Môi trường ảo
+**/venv/
+**/.venv/
+**/env/
+
+# Python Cache (File .pyc sinh ra khi chạy)
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing & Type Checking Cache
+.pytest_cache/
+.mypy_cache/
+
+# Distribution / Packaging
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# =====================================
+# 3. AI MODELS & DATA (FILE NẶNG)
+# =====================================
+# Chặn các thư mục model cụ thể (Như trong dự án của bạn)
+bge_m3_model_vn_basic/
+bge_m3_model_vn_upgrade/
+labse_model_vn_basic/
+labse_model_vn_upgrade/
+paraphrase_multilingual_mpnet*/
+word2vec*/
+data/
+
+# Chặn các định dạng file nặng (Model weights, embeddings)
+*.pkl
+*.bin
+*.safetensors
+*.onnx
+*.npy
+*.npz
+*.pt
+*.pth
+*.h5
+*.keras
+*.model
+*.joblib
+*.kv
+
+# Chặn Notebook rác (nếu bạn chỉ muốn up code .py)
+*.ipynb
+
+# =====================================
+# 4. HỆ THỐNG & IDE (OS Files)
+# =====================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code / IDEA
+.vscode/
+.idea/
+*.swp
+*.swo
+.env

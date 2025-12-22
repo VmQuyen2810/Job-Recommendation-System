@@ -1,0 +1,339 @@
+/* --- SIDEBAR & FILTER --- */
+.sidebar {
+  width: 280px;
+  flex-shrink: 0;
+  background: var(--card-bg);
+  padding: 24px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  height: fit-content;
+  position: sticky;
+  top: 20px;
+  border: 1px solid var(--border-color);
+}
+
+.form-label {
+  display: block;
+  font-weight: 700; /* Label đậm */
+  margin-bottom: 8px;
+  color: var(--text-main);
+  font-size: 0.95rem;
+}
+
+/* --- SMART SALARY FILTER (CHIPS) --- */
+.salary-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.salary-chip {
+  padding: 6px 12px;
+  border: 2px solid var(--border-color);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: white;
+  color: var(--text-muted);
+  transition: all 0.2s;
+}
+
+.salary-chip:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.salary-chip.active {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+/* --- CUSTOM RANGE SLIDER (THANH KÉO ĐẸP) --- */
+.range-wrapper {
+  margin-top: 10px;
+}
+
+/* Reset default styles */
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  background: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+/* Style cho thanh trượt (Track) */
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background: #e2e8f0;
+  border-radius: 4px;
+  border: 1px solid #cbd5e1;
+}
+
+/* Style cho cục nắm (Thumb) */
+input[type=range]::-webkit-slider-thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px; /* Căn giữa */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3); /* Bóng đổ để nổi bật */
+  border: 2px solid white;
+}
+
+.range-display {
+  text-align: right;
+  font-weight: 800;
+  color: var(--primary-color);
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+/* --- 3. JOB CARD --- */
+.job-card {
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-color); /* Viền rõ hơn */
+  transition: all 0.2s ease;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Highlight box khi hover */
+.job-card:hover {
+  border-color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.job-card.highlight {
+  background-color: #fffbeb; /* Vàng nhạt */
+  border-color: var(--accent-color);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.job-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.job-company {
+  font-size: 0.95rem;
+  color: var(--primary-color);
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.match-score {
+  background-color: #dcfce7;
+  color: #166534;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 4px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+  margin-left: 12px;
+}
+
+.card-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* --- 4. JOB DETAIL PAGE --- */
+.job-header-card {
+  background: var(--card-bg);
+  padding: 30px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  border-left: 5px solid var(--primary-color);
+  margin-bottom: 24px;
+}
+
+.header-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 8px;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.tag-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.tag-location { background: #f1f5f9; color: var(--text-muted); }
+.tag-salary { background: #dcfce7; color: #166534; }
+.tag-type { background: #dbeafe; color: #1e40af; }
+.tag-pos { background: #f3e8ff; color: #6b21a8; }
+
+.skill-chip {
+  border: 1px solid var(--border-color);
+  background: white;
+  color: var(--text-muted);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.content-card {
+  background: var(--card-bg);
+  padding: 30px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-main);
+  border-bottom: 2px solid #f1f5f9;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+.section-title:first-child { margin-top: 0; }
+
+.text-content {
+  color: #334155;
+  white-space: pre-line; /* Quan trọng: giữ xuống dòng */
+  line-height: 1.7;
+}
+
+.similar-jobs-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* --- [MỚI] SEARCH BAR WRAPPER --- */
+.modern-search-wrapper {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto 30px auto; 
+  
+  /* CẤU HÌNH FIX CỨNG */
+  position: -webkit-sticky; 
+  position: sticky;         
+  top: 10px;                
+  z-index: 1000;            
+  
+  padding: 10px 0;          
+  background: transparent;  
+}
+
+
+.modern-search-bar {
+  display: flex;
+  align-items: center;
+  background: white;        
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 6px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); 
+  transition: all 0.2s ease;
+}
+
+/* Hiệu ứng khi click vào */
+.modern-search-bar:focus-within {
+  border-color: #3b82f6;
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.15);
+  transform: translateY(-1px);
+}
+
+/* Dropdown */
+.search-select-modern {
+  border: none;
+  background: transparent;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #475569;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.search-select-modern:hover {
+  background-color: #f1f5f9;
+}
+
+/* Gạch ngăn cách */
+.search-divider {
+  width: 1px;
+  height: 24px;
+  background-color: #e2e8f0;
+  margin: 0 4px;
+}
+
+/* Ô nhập liệu */
+.search-input-modern {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  font-size: 1rem;
+  color: #0f172a;
+  background: transparent;
+}
+
+/* Nút bấm */
+.search-btn-modern {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+}
+.search-btn-modern:hover {
+  opacity: 0.95;
+}

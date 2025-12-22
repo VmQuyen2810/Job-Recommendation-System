@@ -1,0 +1,10 @@
+fastapi==0.127.0
+gensim==4.3.2
+joblib==1.5.2
+numpy==2.4.0
+pandas==2.0.3
+pydantic==2.12.5
+scikit_learn==1.8.0
+sentence_transformers==5.1.2
+underthesea==8.3.0
+uvicorn==0.40.0
