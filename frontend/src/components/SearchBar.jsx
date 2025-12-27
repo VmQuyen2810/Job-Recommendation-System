@@ -15,12 +15,15 @@ export default function SearchBar({
           value={modelName}
           onChange={(e) => setModelName(e.target.value)}
         >
-          <option value="ensemble">✨ Ensemble</option>
-          <option value="bge">🌌 BGE-M3</option>
-          <option value="mpnet">🤖 MPNet</option>
-          <option value="doc2vec">📄 Doc2Vec</option>
-          <option value="tfidf">📊 TF-IDF</option>
-          <option value="w2v">🧠 Word2Vec</option>
+          <option value="ensemble">Ensemble</option>
+          <option value="bge">BGE-M3</option>
+          <option value="mpnet">MPNet</option>
+          <option value="labse">LaBSE</option>
+          <option value="doc2vec">Doc2Vec</option>
+          <option value="doc2vec_dbow">Doc2Vec_dbow</option>
+          <option value="tfidf">TF-IDF</option>
+          <option value="w2v">Word2Vec</option>
+          <option value="w2v_sg">Word2Vec_sg</option>
         </select>
       </div>
 
@@ -36,8 +39,8 @@ export default function SearchBar({
             value={searchType} 
             onChange={(e) => setSearchType(e.target.value)}
           >
-            <option value="overall">📝 Tất cả</option>
-            <option value="title">🏷️ Tiêu đề</option>
+            <option value="overall">Tất cả</option>
+            <option value="title">Tiêu đề</option>
           </select>
           <div className="search-divider"></div>
         </>

@@ -78,6 +78,7 @@ class SearchEngine:
         query_str = self.preprocess_text(query)
         indices = df_jobs.index
 
+
         # --- A. Tính điểm TF-IDF (30%) ---
         try:
             tfidf_key = "tfidf_basic" if search_field == "title" else "tfidf_upgrade"
@@ -218,6 +219,12 @@ class SearchEngine:
     def _get_avg_vector(self, text, model):
         words = self.preprocess_tokens(text)
         valid = [w for w in words if w in model]
+
+        if len(text) < 100: 
+            print(f"🔎 Query: '{text}'")
+            print(f"   Tokens gốc: {words}")
+            print(f"   Valid W2V:  {valid}") # <--- QUAN TRỌNG: Xem danh sách này có rỗng hoặc toàn từ rác không?
+
         if not valid: return np.zeros(model.vector_size)
         return np.mean([model[w] for w in valid], axis=0)
 
@@ -280,6 +287,7 @@ class SearchEngine:
         print(f"🔄 Transformer: Loading {key}...")
         try:
             self.models[key] = SentenceTransformer(settings.MODEL_PATHS[key])
+            self.models[key].eval()  
             emb = settings.EMBEDDING_PATHS.get(key)
             if emb:
                 if emb.get("title"): self.embeddings[f"{key}_title"] = np.load(emb["title"])
