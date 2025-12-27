@@ -286,7 +286,11 @@ class SearchEngine:
         if key in self.models: return
         print(f"🔄 Transformer: Loading {key}...")
         try:
-            self.models[key] = SentenceTransformer(settings.MODEL_PATHS[key])
+            self.models[key] = SentenceTransformer(
+                settings.MODEL_PATHS[key], 
+                model_kwargs={"low_cpu_mem_usage": False},
+                device="cpu" 
+            )
             self.models[key].eval()  
             emb = settings.EMBEDDING_PATHS.get(key)
             if emb:
