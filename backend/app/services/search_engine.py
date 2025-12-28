@@ -16,6 +16,7 @@ except ImportError:
     KeyedVectors = None
     Doc2Vec = None
 
+
 warnings.filterwarnings("ignore")
 
 class SearchEngine:
@@ -106,8 +107,17 @@ class SearchEngine:
             
             # Chọn embedding matrix
             emb_key = f"{bge_key}_{search_field}"
-            if emb_key not in self.embeddings: # Fallback
-                emb_key = f"{bge_key}_overall" if search_field == "title" else f"{bge_key}_title"
+
+        
+            print(f"🔍 DEBUG ENSEMBLE:")
+            print(f"   - Mode: {search_field}")
+            print(f"   - Cần tìm key: '{emb_key}'")
+            print(f"   - Các key hiện có trong RAM: {list(self.embeddings.keys())}")
+            
+            if emb_key not in self.embeddings:
+                print(f"   ❌ LỖI: Không tìm thấy ma trận vector '{emb_key}'!")
+            else:
+                print(f"   ✅ Đã tìm thấy ma trận vector. Shape: {self.embeddings[emb_key].shape}")
             
             # Tính toán
             if emb_key in self.embeddings and self.embeddings[emb_key] is not None:
@@ -118,6 +128,9 @@ class SearchEngine:
                     sub_bge = np.zeros(len(indices))
             else:
                 sub_bge = np.zeros(len(indices))
+
+            print(len(indices), max(indices), len(vec_bge), len(raw_bge))
+            
         except Exception as e:
             print(f"⚠️ Ensemble BGE Error: {e}")
             sub_bge = np.zeros(len(indices))
