@@ -77,8 +77,8 @@ export default function Dashboard() {
       {/* 2. GỢI Ý */}
       <div>
         <h2 className="section-title" style={{fontSize: '1.4rem', marginBottom: '24px', display:'flex', alignItems:'center', gap:'10px'}}>
-           💡 Gợi ý dành cho bạn
-           {hasInitialData && <span style={{fontSize:'0.8rem', background:'#dbeafe', color:'#1e40af', padding:'4px 10px', borderRadius:'20px', fontWeight:'600'}}>Theo sở thích</span>}
+           Gợi ý dành cho bạn
+           {hasInitialData && <span style={{fontSize:'0.8rem', background:'#dbeafe', color:'#1e40af', padding:'4px 10px', borderRadius:'20px', fontWeight:'600'}}></span>}
         </h2>
         
         <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', gap: '24px'}}>

@@ -15,7 +15,7 @@ export default function SearchBar({
           value={modelName}
           onChange={(e) => setModelName(e.target.value)}
         >
-          <option value="ensemble">Ensemble</option>
+          <option value="ensemble">SemLex</option>
           <option value="bge">BGE-M3</option>
           <option value="mpnet">MPNet</option>
           <option value="labse">LaBSE</option>

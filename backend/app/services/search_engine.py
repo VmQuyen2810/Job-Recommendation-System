@@ -109,15 +109,15 @@ class SearchEngine:
             emb_key = f"{bge_key}_{search_field}"
 
         
-            print(f"🔍 DEBUG ENSEMBLE:")
-            print(f"   - Mode: {search_field}")
-            print(f"   - Cần tìm key: '{emb_key}'")
-            print(f"   - Các key hiện có trong RAM: {list(self.embeddings.keys())}")
+            # print(f"🔍 DEBUG ENSEMBLE:")
+            # print(f"   - Mode: {search_field}")
+            # print(f"   - Cần tìm key: '{emb_key}'")
+            # print(f"   - Các key hiện có trong RAM: {list(self.embeddings.keys())}")
             
-            if emb_key not in self.embeddings:
-                print(f"   ❌ LỖI: Không tìm thấy ma trận vector '{emb_key}'!")
-            else:
-                print(f"   ✅ Đã tìm thấy ma trận vector. Shape: {self.embeddings[emb_key].shape}")
+            # if emb_key not in self.embeddings:
+            #     print(f"   ❌ LỖI: Không tìm thấy ma trận vector '{emb_key}'!")
+            # else:
+            #     print(f"   ✅ Đã tìm thấy ma trận vector. Shape: {self.embeddings[emb_key].shape}")
             
             # Tính toán
             if emb_key in self.embeddings and self.embeddings[emb_key] is not None:
@@ -368,23 +368,15 @@ class SearchEngine:
             return pd.DataFrame()
         
     def warmup(self):
-        """
-        Tải trước tất cả các model nặng vào RAM ngay khi khởi động server.
-        """
-        print("🚀 Đang khởi động hệ thống AI (Pre-loading models)...")
+
+        print("Đang khởi động hệ thống")
         
-        # 1. Load các model chính hay dùng nhất
         self.load_tfidf("tfidf_basic")
         self.load_tfidf("tfidf_upgrade")
         
-        # 2. Load model Transformer chính (Ensemble dùng cái này)
-        # Chỉ cần load model Ensemble đang dùng (ví dụ BGE hoặc MPNet)
-        # Nếu máy yếu, chỉ load 1 cái chính.
         self.load_transformer("bge_m3_basic") 
         self.load_transformer("bge_m3_upgrade")
         
-        # 3. Load W2V/Doc2Vec (nếu cần thiết dùng ngay)
-        # self.load_doc2vec("w2v_doc2vec_basic")
         
-        print("✅ Hệ thống AI đã sẵn sàng! (Warmup complete)")
+        print("Hệ thống đã sẵn sàng! (Warmup complete)")
 search_engine = SearchEngine()

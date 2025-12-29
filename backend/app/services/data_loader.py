@@ -65,8 +65,8 @@ class DataLoader:
             candidates = self.df.copy()
 
         # 3. Tính điểm Heuristic cho từng dòng (Apply)
-        # Hàm calculate_heuristic_score nhận vào (row, profile)
-        scores = candidates.apply(lambda row: calculate_heuristic_score(row, profile), axis=1)
+        # Hàm calculate_score_ranking nhận vào (row, profile)
+        scores = candidates.apply(lambda row: calculate_score_ranking(row, profile), axis=1)
 
         # 4. Gán điểm vào DataFrame và Sort
         candidates['similarity_score'] = scores

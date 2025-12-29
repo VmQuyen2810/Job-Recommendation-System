@@ -62,8 +62,8 @@ export default function ColdStart() {
     <div className="cold-start-page">
       <div className="cold-start-card">
         <div style={{textAlign: 'center', marginBottom: '30px'}}>
-           <h1 style={{fontSize: '2.2rem', fontWeight: '800', color: '#1e293b', marginBottom: '10px'}}>Chào mừng bạn! 🚀</h1>
-           <p style={{color: '#64748b', fontSize: '1.1rem'}}>Cho chúng tôi biết vài thông tin để gợi ý việc làm phù hợp nhất.</p>
+           <h1 style={{fontSize: '2.2rem', fontWeight: '800', color: '#1e293b', marginBottom: '10px'}}></h1>
+           <p style={{color: '#64748b', fontSize: '1.1rem'}}>Cho chúng tôi biết vài thông tin để gợi ý việc làm phù hợp.</p>
         </div>
         
         <form onSubmit={handleSubmit}>
