@@ -1,22 +1,11 @@
 # Job Recommendation System
 
-Dự án Hệ thống gợi ý việc làm thông minh sử dụng các kỹ thuật NLP (BERT, TF-IDF, LaBSE) để phân tích và gợi ý công việc phù hợp nhất dựa trên hồ sơ và hành vi tìm kiếm của người dùng.
+Dự án Hệ thống gợi ý việc làm thông minh sử dụng các kỹ thuật NLP để phân tích và gợi ý công việc phù hợp nhất dựa trên hồ sơ và hành vi tìm kiếm của người dùng.
 
-## 🛠 Công nghệ sử dụng
 
-* **Frontend:** ReactJS, Vite, Axios
-* **Backend:** Python, FastAPI
-* **AI/ML:** PyTorch, Scikit-learn, Pandas, NumPy
-* **Models:** BGE-M3, LaBSE, Paraphrase Multilingual
-
----
-
-## 📥 Hướng dẫn Cài đặt & Chạy dự án
-
-Vui lòng làm theo từng bước dưới đây để khởi chạy hệ thống.
+## Hướng dẫn Cài đặt & Chạy dự án
 
 ### Bước 1: Clone dự án về máy
-
 
 ### Bước 2: Tải Model & Dữ liệu (BẮT BUỘC)
 
