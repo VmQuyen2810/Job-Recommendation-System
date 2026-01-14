@@ -1,7 +1,7 @@
 # =====================================
-# 1. FRONTEND RÁC (NodeJS/React/Vite)
+# 1. FRONTEND (NodeJS/React/Vite)
 # =====================================
-# Thư viện (Rất nặng)
+# Thư viện 
 **/node_modules/
 
 # Build output
@@ -9,7 +9,7 @@ frontend/dist/
 frontend/build/
 frontend/out/
 
-# Logs (File nhật ký lỗi)
+# Logs 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -26,14 +26,14 @@ frontend/.env.test.local
 frontend/.env.production.local
 
 # =====================================
-# 2. BACKEND RÁC (Python)
+# 2. BACKEND RÁC 
 # =====================================
 # Môi trường ảo
 **/venv/
 **/.venv/
 **/env/
 
-# Python Cache (File .pyc sinh ra khi chạy)
+# Python Cache 
 **/__pycache__/
 *.pyc
 *.pyo
@@ -51,9 +51,8 @@ frontend/.env.production.local
 .ipynb_checkpoints/
 
 # =====================================
-# 3. AI MODELS & DATA (FILE NẶNG)
+# 3. MODELS & DATA
 # =====================================
-# Chặn các thư mục model cụ thể (Như trong dự án của bạn)
 bge_m3_model_vn_basic/
 bge_m3_model_vn_upgrade/
 labse_model_vn_basic/
@@ -76,11 +75,11 @@ word2vec*/
 *.joblib
 *.kv
 
-# Chặn Notebook rác (nếu bạn chỉ muốn up code .py)
+# Chặn Notebook
 *.ipynb
 
 # =====================================
-# 4. HỆ THỐNG & IDE (OS Files)
+# 4. HỆ THỐNG & IDE 
 # =====================================
 # Windows
 Thumbs.db
