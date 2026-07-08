@@ -1,0 +1,117 @@
+version: "3.8"
+
+x-airflow-common: &airflow_common
+  image: apache/airflow:2.9.3  # dùng phiên bản ổn định, không dùng latest
+  environment: &airflow_environment
+    - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+    - AIRFLOW__CORE__LOAD_DEFAULT_CONNECTIONS=False
+    - AIRFLOW__CORE__LOAD_EXAMPLES=False
+    - AIRFLOW__CORE__FERNET_KEY=FBY5S5A7f5qK3Yv8vL3wR9j2r7qN6pZxU5T4S3R2Q1P0
+    - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+    - AIRFLOW__WEBSERVER__SECRET_KEY=your_very_secret_key_here_change_it
+    - AIRFLOW__CORE__STORE_DAG_CODE=True
+    - AIRFLOW__CORE__STORE_SERIALIZED_DAGS=True
+
+    # Biến cho Scrapy crawler
+    - CRAWLER_DATABASE_HOST=mysql
+    - CRAWLER_DATABASE_USERNAME=root
+    - CRAWLER_DATABASE_PASSWORD=admin
+    - CRAWLER_DATABASE_NAME=crawler
+
+    # Email (tùy chọn)
+    - AIRFLOW__SMTP__SMTP_HOST=smtp.gmail.com
+    - AIRFLOW__SMTP__SMTP_STARTTLS=True
+    - AIRFLOW__SMTP__SMTP_SSL=False
+    - AIRFLOW__SMTP__SMTP_PORT=587
+    - AIRFLOW__SMTP__SMTP_USER=${AIRFLOW__SMTP__SMTP_USER}
+    - AIRFLOW__SMTP__SMTP_PASSWORD=${AIRFLOW__SMTP__SMTP_PASSWORD}
+    - AIRFLOW__SMTP__SMTP_MAIL_FROM=airflow@example.com
+
+  volumes:
+    - ./logs:/opt/airflow/logs
+    - ../dags:/opt/airflow/dags
+    - ../scrapy:/opt/airflow/scrapy
+  user: "${AIRFLOW_UID:-50000}:0"
+  depends_on:
+    - postgres
+    - mysql
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    restart: always
+
+  airflow-init:
+    <<: *airflow_common
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        airflow db init
+        airflow users create \
+          --username admin \
+          --firstname Admin \
+          --lastname User \
+          --role Admin \
+          --email admin@example.com \
+          --password nghia || true
+    restart: on-failure
+
+  webserver:
+    <<: *airflow_common
+    command: webserver
+    ports:
+      - "8080:8080"
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  scheduler:
+    <<: *airflow_common
+    command: scheduler
+    restart: always
+
+  mysql:
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: nghia
+      MYSQL_DATABASE: crawler
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - mysql_data:/var/lib/mysql
+    restart: always
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: root
+      PMA_PASSWORD: nghia
+    ports:
+      - "6205:80"
+    depends_on:
+      - mysql
+    restart: always
+
+volumes:
+  postgres_data:
+  mysql_data:
+  logs:
+
+networks:
+  default:
+    name: topcv_crawler_network

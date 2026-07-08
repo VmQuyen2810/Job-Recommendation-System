@@ -1,0 +1,1801 @@
+[
+    {
+        "query": "Tìm vị trí staff kỹ sư cầu đường làm việc tại TP. Hồ Chí Minh",
+        "must_have": [
+            "Nhân viên",
+            "Kỹ sư cầu đường",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí chuyên viên kế toán tổng hợp làm việc tại TP Hồ Chí Minh",
+        "must_have": [
+            "Nhân viên",
+            "Kế toán tổng hợp",
+            "TP Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm xây dựng khu vực Đồng Nai",
+        "must_have": [
+            "Xây dựng",
+            "Đồng Nai"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm vị trí chuyên viên chuyên môn ngân hàng làm việc tại thủ đô Hà Nội",
+        "must_have": [
+            "Nhân viên",
+            "Chuyên môn Ngân hàng",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Job môi giới bất động sản thủ đô Hà Nội",
+        "must_have": [
+            "Môi giới bất động sản",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm việc làm it helpdesk khu vực TP Hồ Chí Minh",
+        "must_have": [
+            "IT Helpdesk",
+            "TP Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Ứng tuyển chuyên viên nhân sự Hà Nội",
+        "must_have": [
+            "Nhân viên",
+            "Nhân sự",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí nhân viên telesales",
+        "must_have": [
+            "Nhân viên",
+            "Telesales"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Job lao động phổ thông thủ đô Đồng Nai",
+        "must_have": [
+            "Lao động phổ thông",
+            "Đồng Nai"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm vị trí staff chăm sóc khách hàng ",
+        "must_have": [
+            "staff",
+            "Chăm sóc khách hàng"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Nhân viên sales b2b tại Đà Nẵng",
+        "must_have": [
+            "Nhân viên",
+            "B2B",
+            "Đà Nẵng"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Staff mảng embedded engineer Hà Nội lương cao",
+        "must_have": [
+            "staff",
+            "Embedded",
+            "Engineer",
+            "Hà Nội",
+            "lương cao"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Cần tìm job điện lạnh ở Ninh Bình",
+        "must_have": [
+            "Điện lạnh",
+            "Ninh Bình"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm vị trí chuyên viên thiết kế làm việc tại TP. HCM",
+        "must_have": [
+            "chuyên viên",
+            "Thiết kế",
+            "TP. HCM"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Job direct sales Hà Nội",
+        "must_have": [
+            "Direct Sales",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Cần tìm job giám sát dự án ở đồng nai",
+        "must_have": [
+            "Giám sát dự án",
+            "Đồng Nai"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Thực tập sinh chuyên môn marketing tại tp.hồ chí minh",
+        "must_have": [
+            "Thực tập sinh",
+            "Marketing",
+            "TP.Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tuyển staff thương mại điện tử ở Hà Nội",
+        "must_have": [
+            "staff",
+            "Thương mại điện tử",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm giám sát sản xuất khu vực vĩnh long, cần thơ",
+        "must_have": [
+            "Giám sát sản xuất",
+            "Vĩnh Long, Cần Thơ"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Job quảng cáo tp. hcm",
+        "must_have": [
+            "Quảng cáo",
+            "TP.Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tuyển trưởng phòng tài chính ở hà nội",
+        "must_have": [
+            "Trưởng phòng",
+            "Tài chính",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm lái xe cho sếp khu vực TP. Hồ Chí Minh",
+        "must_have": [
+            "Lái xe",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Ứng tuyển chuyên viên thiết kế TP. Hồ Chí Minh",
+        "must_have": [
+            "Nhân viên",
+            "Thiết kế",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm thương mại điện tử khu vực TP. Hồ Chí Minh",
+        "must_have": [
+            "Thương mại điện tử",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm việc làm direct sales khu vực đà nẵng",
+        "must_have": [
+            "Direct Sales",
+            "Đà Nẵng"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Nhân viên mảng phát thanh Hà Nội lương cao",
+        "must_have": [
+            "Nhân viên",
+            "Phát thanh",
+            "Hà Nội",
+            "lương cao"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí chuyên viên sales bất động sản làm việc tại TP. Hồ Chí Minh",
+        "must_have": [
+            "Nhân viên",
+            "Sales Bất động sản",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Cần tìm job software tester ở Hà Nội",
+        "must_have": [
+            "Software Tester",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Chuyên viên kiến trúc fulltime",
+        "must_have": [
+            "Nhân viên",
+            "Thiết kế / Kiến trúc",
+            "fulltime"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tuyển chuyên viên may mặc ở hà nội",
+        "must_have": [
+            "Nhân viên",
+            "May mặc",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Ứng tuyển staff sản xuất tây ninh",
+        "must_have": [
+            "staff",
+            "Sản xuất",
+            "Tây Ninh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Cần tìm job graphic design ở TP. Hồ Chí Minh",
+        "must_have": [
+            "Graphic Design",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm vị trí staff điện tử làm việc tại TP. Hồ Chí Minh",
+        "must_have": [
+            "staff",
+            "Điện tử",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm việc làm marketing quảng cáo khu vực hà nội",
+        "must_have": [
+            "Marketing Quảng cáo",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm việc làm thương mại điện tử khu vực TP. Hồ Chí Minh",
+        "must_have": [
+            "Thương mại điện tử",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Chuyên viên kế toán fulltime ở hưng yên",
+        "must_have": [
+            "Nhân viên",
+            "Kế toán",
+            "fulltime",
+            "Hưng Yên"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm luật pháp chế khu vực thủ đô Hà Nội",
+        "must_have": [
+            "Luật / Pháp chế",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tuyển chuyên viên kế toán ở tây ninh",
+        "must_have": [
+            "Chuyên viên",
+            "Kế toán",
+            "Tây Ninh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí staff kỹ sư thiết kế cơ khí làm việc tại hà nội",
+        "must_have": [
+            "staff",
+            "Kỹ sư thiết kế", 
+            "cơ khí",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Job quản lý vận hành bất động sản hà nội",
+        "must_have": [
+            "Quản lý vận hành bất động sản khác",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm vị trí chuyên viên kỹ sư xây dựng làm việc tại hà nội",
+        "must_have": [
+            "Chuyên viên",
+            "Kỹ sư xây dựng",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Ứng tuyển staff tài chính TP. Hồ Chí Minh",
+        "must_have": [
+            "staff",
+            "Tài chính",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Nhân viên mảng bất động sản Hà Nội lương cao",
+        "must_have": [
+            "Nhân viên",
+            "Bất động sản",
+            "Hà Nội",
+            "lương cao"
+        ],
+        "min_match": 3
+    },
+    {
+        "query": "Job kế toán tổng hợp TP. Hồ Chí Minh",
+        "must_have": [
+            "Kế toán tổng hợp",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Nhân viên thiết kế kiến trúc fulltime ở thủ đô Hà Nội",
+        "must_have": [
+            "Nhân viên",
+            "Thiết kế Kiến trúc",
+            "fulltime",
+            "Hà Nội"
+        ],
+        "min_match": 3
+    },
+    {
+        "query": "Cần tìm job lao động phổ thông ở đắk lắk",
+        "must_have": [
+            "Lao động phổ thông",
+            "Đắk Lắk"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Cần tìm job thu hồi nợ parttime ở hà nội",
+        "must_have": [
+            "Thu hồi nợ",
+            "Parttime",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí nhân viên thương mại điện tử làm việc tại thủ đô Hà Nội",
+        "must_have": [
+            "Nhân viên",
+            "Thương mại điện tử",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Cần tìm job Thiết kế đồ họa ở Hà Nội",
+        "must_have": [
+            "Thiết kế đồ họa",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Nhân viên marketing tại Hà Nội",
+        "must_have": [
+            "Nhân viên",
+            "Marketing",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tuyển chuyên viên bất động sản ở ninh bình",
+        "must_have": [
+            "Chuyên viên",
+            "Bất động sản",
+            "Ninh Bình"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí nhân viên chuyên môn vận hành sản xuất làm việc tại bắc ninh",
+        "must_have": [
+            "Nhân viên",
+            "Chuyên môn Vận hành sản xuất",
+            "Bắc Ninh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Ứng tuyển giám đốc chuyên môn tài chính thủ đô Hà Nội",
+        "must_have": [
+            "Giám đốc",
+            "Chuyên môn Tài chính",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm kế toán tổng hợp khu vực TP. Hồ Chí Minh",
+        "must_have": [
+            "Kế toán tổng hợp",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Cần tìm job đào tạo ở Hà Nội",
+        "must_have": [
+            "Đào tạo",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Staff xuất nhập khẩu fulltime ở Hà Nội",
+        "must_have": [
+            "staff",
+            "Xuất nhập khẩu",
+            "Hà Nội",
+            "fulltime"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Trưởng phòng y tế fulltime ở hn",
+        "must_have": [
+            "Trưởng phòng",
+            "Y tế",
+            "fulltime",
+            "Hà Nội"
+        ],
+        "min_match": 3
+    },
+    {
+        "query": "Job bất động sản hà nội",
+        "must_have": [
+            "Bất động sản",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Cần tìm job trợ lý dự án kỹ thuật ở hồ chí minh",
+        "must_have": [
+            "Trợ lý dự án kỹ thuật",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Ứng tuyển nhân viên kế toán Hà Nội",
+        "must_have": [
+            "Nhân viên",
+            "Kế toán",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tuyển chuyên viên backend developer ở tây ninh",
+        "must_have": [
+            "Chuyên viên",
+            "Backend Developer",
+            "Tây Ninh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Job quan hệ khách hàng doanh nghiệp ở TP. Hồ Chí Minh",
+        "must_have": [
+            "Quan hệ khách hàng doanh nghiệp",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Ứng tuyển phó nhóm tài chính TP. Hồ Chí Minh",
+        "must_have": [
+            "Phó nhóm",
+            "Tài chính",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Chuyên viên dev fulltime ở TP. Hồ Chí Minh",
+        "must_have": [
+            "Chuyên viên",
+            "dev",
+            "fulltime",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí nhân viên dự toán công trình làm việc tại TP. Hồ Chí Minh",
+        "must_have": [
+            "Nhân viên",
+            "Dự toán công trình",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Thực tập mảng 3d modeler TP. Hồ Chí Minh lương cao",
+        "must_have": [
+            "Thực tập",
+            "3D Modeler",
+            "Hồ Chí Minh",
+            "lương cao",
+            "3D"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí công nhân xây dựng làm việc tại Hà Nội",
+        "must_have": [
+            "Công nhân",
+            "Xây dựng",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm lao động nhà máy khu vực TP. Hồ Chí Minh",
+        "must_have": [
+            "Lao động nhà máy",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tuyển nhân viên môi trường ở tp. hcm",
+        "must_have": [
+            "Nhân viên",
+            "Môi trường",
+            "tp. hcm"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Nhân viên mảng online sales thái nguyên lương cao",
+        "must_have": [
+            "Nhân viên",
+            "Online Sales",
+            "Thái Nguyên",
+            "lương cao"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Job kế toán nội bộ thủ đô Hà Nội",
+        "must_have": [
+            "Kế toán nội bộ",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Job ngân hàng cà mau",
+        "must_have": [
+            "Ngân hàng",
+            "Cà Mau"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm việc làm marketing planner khu vực TP. Hồ Chí Minh",
+        "must_have": [
+            "Marketing Planner",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Cần tìm job bán hàng, thu ngân ở TP. Hồ Chí Minh",
+        "must_have": [
+            "bán hàng, thu ngân",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Ứng tuyển giáo viên tiếng anh hưng yên",
+        "must_have": [
+            "Giáo viên tiếng Anh",
+            "Hưng Yên"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Chuyên viên b2c tại tp. hcm",
+        "must_have": [
+            "Chuyên viên",
+            "B2C",
+            "tp.hcm"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Cần tìm job fmcg ở thủ đô Hà Nội",
+        "must_have": [
+            " FMCG",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Thực tập sinh thiết kế đồ họa tại thủ đô Hà Nội",
+        "must_have": [
+            "Thực tập sinh",
+            "Thiết kế đồ họa",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Job direct sales hà nội",
+        "must_have": [
+            "Direct Sales",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Job dev software hà nội",
+        "must_have": [
+            "Dev software",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Chuyên viên trade marketing fulltime ở tp. hcm",
+        "must_have": [
+            "Chuyên viên",
+            "Trade Marketing",
+            "fulltime",
+            "tp.hcm"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí staff content marketing làm việc tại HN",
+        "must_have": [
+            "staff",
+            "Content Marketing",
+            "HN"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm về năng lượng khu vực hồ chí minh",
+        "must_have": [
+            "Năng lượng",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm vị trí staff telesales làm việc tại TP. Hồ Chí Minh",
+        "must_have": [
+            "staff",
+            "Telesales",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm việc làm direct sales khu vực tp. hcm",
+        "must_have": [
+            "Direct Sales",
+            "tp. hcm"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Staff nhân viên bán hàng tại shop fulltime ở hn",
+        "must_have": [
+            "staff",
+            "Bán hàng",
+            "HN"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Ứng tuyển công nhân công trường Bình Dương",
+        "must_have": [
+            "Công nhân",
+            "Công trường",
+            "Bình Dương"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm thiết kế đồ họa khu vực đà nẵng",
+        "must_have": [
+            "Thiết kế đồ họa",
+            "Đà Nẵng"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Ứng tuyển leader b2c hcm",
+        "must_have": [
+            "Leader",
+            "B2C",
+            "hcm"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Phó phòng bất động sản tại hà nội",
+        "must_have": [
+            "Phó phòng",
+            "Bất động sản",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Cần tìm job backend developer ở Hà Nội",
+        "must_have": [
+            "Backend Developer",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Job sales b2b hồ chí minh",
+        "must_have": [
+            "B2B",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Ứng tuyển quản lý f&b ninh bình",
+        "must_have": [
+            "Quản lý",
+            "F&B",
+            "Ninh Bình"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tuyển chuyên viên pháp chế ở TP. Hồ Chí Minh",
+        "must_have": [
+            "Chuyên viên",
+            "Pháp chế",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí tổ trưởng sản xuất làm việc tại ninh bình",
+        "must_have": [
+            "Tổ trưởng sản xuất",
+            "Ninh Bình"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm vị trí chuyên viên kỹ thuật viên máy tính làm việc tại ninh bình",
+        "must_have": [
+            "Chuyên viên",
+            "kỹ thuật viên máy tính",
+            "Ninh Bình"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm việc làm kinh doanh vật liệu xây dựng khu vực hà nội",
+        "must_have": [
+            "Kinh doanh vật liệu xây dựng",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm việc làm lao động phổ thông parttime khu vực đồng nai",
+        "must_have": [
+            "Lao động phổ thông",
+            "parttime",
+            "Đồng Nai"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Ứng tuyển nhân viên marketing quảng cáo thủ đô hn",
+        "must_have": [
+            "Nhân viên",
+            "Marketing Quảng cáo",
+            "hn"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Cần tìm job thực tập chăm sóc khách hàng ở hồ chí minh",
+        "must_have": [
+            "thực tập",
+            "Chăm sóc khách hàng",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Staff mảng chuyên môn bảo hiểm tphcm lương cao",
+        "must_have": [
+            "staff",
+            "Bảo hiểm",
+            "tphcm",
+            "lương cao"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Job ngân hàng hồ chí minh",
+        "must_have": [
+            "Ngân hàng",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Cần tìm job digital marketing ở TP. Hồ Chí Minh",
+        "must_have": [
+            "Digital Marketing",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm việc làm sales b2b khu vực thủ đô Hà Nội",
+        "must_have": [
+            "B2B",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Cần tìm job direct sales ở lâm đồng",
+        "must_have": [
+            "Direct Sales",
+            "Lâm Đồng"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tuyển nhân viên du lịch ở huế",
+        "must_have": [
+            "Nhân viên",
+            "Du lịch",
+            "Huế"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Cần tìm job công nghệ kỹ thuật ở đà nẵng",
+        "must_have": [
+            "Công nghệ kỹ thuật",
+            "Đà Nẵng"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Cần tìm job xây dựng ở hồ chí minh",
+        "must_have": [
+            "Xây dựng",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Ứng tuyển trưởng nhóm trade marketing hà nội",
+        "must_have": [
+            "Trưởng nhóm",
+            "Trade Marketing",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Ứng tuyển thợ điện hà nội",
+        "must_have": [
+            "thợ điện",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Trợ giảng đại học tại thủ đô hn",
+        "must_have": [
+            "Trợ giảng đại học",
+            "hn"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm việc làm phát triển thị trường b2b khu vực hà nội",
+        "must_have": [
+            "phát triển thị trường",
+            "B2B",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm tư vấn tuyển sinh khu vực hcm",
+        "must_have": [
+            "Tư vấn tuyển sinh",
+            "hcm"
+        ],
+        "min_match": 1
+    },
+        {
+        "query": "Tìm việc làm tư vấn khoá học khu vực hcm",
+        "must_have": [
+            "Tư vấn khoá học",
+            "hcm"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Cần tìm job công nhân sản xuất ở bắc ninh",
+        "must_have": [
+            "Công nhân",
+            "Sản xuất",
+            "Bắc Ninh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Ứng tuyển nhân viên phát triển thị trường b2b tp. hcm",
+        "must_have": [
+            "Nhân viên",
+            "B2B",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm kỹ sư điện tử viễn thông khu vực tây ninh",
+        "must_have": [
+            "Kỹ sư điện tử viễn thông",
+            "Tây Ninh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Nhân viên fullstack developer tại hà nội",
+        "must_have": [
+            "Nhân viên",
+            "Fullstack Developer",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Ứng tuyển nhân viên digital marketing thủ đô hà nội",
+        "must_have": [
+            "Nhân viên",
+            "Digital Marketing",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Ứng tuyển nhân viên chuyên môn thiết kế giao diện thủ đô hà nội",
+        "must_have": [
+            "Nhân viên",
+            "Thiết kế Giao diện",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Ứng tuyển nhân viên kỹ sư điện mặt trời hải phòng",
+        "must_have": [
+            "Nhân viên",
+            "Kỹ sư điện mặt trời",
+            "Hải Phòng"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Thực tập sinh pháp chế tại hà nội",
+        "must_have": [
+            "Thực tập sinh",
+            "Pháp chế",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí công nhân lao động phổ thông làm việc tại Đà Nẵng",
+        "must_have": [
+            "Công nhân",
+            "Lao động phổ thông",
+            "Đà Nẵng"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Ứng tuyển staff sales online b2b hà nội",
+        "must_have": [
+            "staff",
+            "B2B",
+            "Sales Online",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí chuyên viên b2c làm việc tại cà mau",
+        "must_have": [
+            "Chuyên viên",
+            "B2C",
+            "Cà Mau"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Nhân viên mảng sản xuất cần thơ lương cao",
+        "must_have": [
+            "Nhân viên",
+            "Sản xuất",
+            "Cần Thơ",
+            "lương cao"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Nhân viên thu hồi nợ tại TP. Hồ Chí Minh",
+        "must_have": [
+            "Nhân viên",
+            "Thu hồi nợ",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Thực tập sinh chạy ads thực tập ở TP. Hồ Chí Minh",
+        "must_have": [
+            "Thực tập sinh",
+            "Chạy Ads",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tuyển nhân viên b2c làm việc online",
+        "must_have": [
+            "Nhân viên",
+            "B2C",
+            "Online"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Công việc trực tổng đài huế",
+        "must_have": [
+            "Trực tổng đài",
+            "Huế"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Thực tập sinh thiết kế kiến trúc fulltime ở thủ đô Hà Nội",
+        "must_have": [
+            "Thực tập sinh",
+            "Thiết kế kiến trúc",
+            "fulltime",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Nhân viên phát triển thị trường tại hcm",
+        "must_have": [
+            "Nhân viên",
+            "phát triển thị trường",
+            "hcm"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Cần tìm job designer làm việc online ở hồ chí minh",
+        "must_have": [
+            "Design",
+            "Online",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm business analyst khu vực hà nội",
+        "must_have": [
+            "Business Analyst",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm việc làm kiểm toán khu vực Lâm Đồng",
+        "must_have": [
+            "Kiểm toán",
+            "Lâm Đồng"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tuyển chuyên viên đào tạo ở huế",
+        "must_have": [
+            "Chuyên viên",
+            "Đào tạo",
+            "Huế"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm media khu vực hà nội",
+        "must_have": [
+            "Media",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm việc làm triễn lãm nghệ thuật khu vực tphcm",
+        "must_have": [
+            "Triễn lãm nghệ thuật",
+            "tphcm"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Ứng tuyển staff chăm sóc khách hàng fulltime ở hà nội",
+        "must_have": [
+            "staff",
+            "Chăm sóc khách hàng",
+            "fulltime",
+            "Hà Nội"
+        ],
+        "min_match": 3
+    },
+    {
+        "query": "Tìm quản lý hàng tiêu dùng khu vực đà nẵng",
+        "must_have": [
+            "quản lý",
+            "Hàng tiêu dùng",
+            "Đà Nẵng"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Chuyên viên chăm sóc khách hàng fulltime/parttime ở hà nội",
+        "must_have": [
+            "Chuyên viên",
+            "Chăm sóc khách hàng",
+            "fulltime/parttime",
+            "Hà Nội"
+        ],
+        "min_match": 3
+    },
+    {
+        "query": "Tìm việc làm thực tập marketing quảng cáo khu vực hn",
+        "must_have": [
+            "thực tập",
+            "Marketing quảng cáo",
+            "hn"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí staff kế toán công nợ làm việc tại hcm",
+        "must_have": [
+            "staff",
+            "Kế toán công nợ",
+            "hcm"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Chuyên viên tài chính fulltime ở hà nội",
+        "must_have": [
+            "Chuyên viên",
+            "Tài chính",
+            "fulltime",
+            "Hà Nội"
+        ],
+        "min_match": 3
+    },
+    {
+        "query": "Job kế toán thuế thủ đô Hà Nội",
+        "must_have": [
+            "Kế toán thuế",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Chuyên viên truyền hình tại hà nội",
+        "must_have": [
+            "Chuyên viên",
+            "Truyền hình",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Job kế toán tổng hợp thủ đô Hà Nội",
+        "must_have": [
+            "Kế toán tổng hợp",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tuyển team leader backend developer ở HN",
+        "must_have": [
+            "leader",
+            "Backend Developer",
+            "HN"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Nhân viên mobile developer tại hà nội",
+        "must_have": [
+            "Nhân viên",
+            "Mobile Developer",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Cần tìm job kế toán trưởng ở hà nội",
+        "must_have": [
+            "Kế toán trưởng",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tuyển nhân viên kế hoạch sản xuất ở đồng nai",
+        "must_have": [
+            "Nhân viên",
+            "Kế hoạch sản xuất",
+            "Đồng Nai"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Job sales bán lẻ hồ chí minh",
+        "must_have": [
+            "Sales Bán lẻ",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm việc làm thiết kế mỹ thuật khu vực hà nội",
+        "must_have": [
+            "thiết kế mỹ thuật",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Ứng tuyển giao dịch viên fulltime ở tp. hcm",
+        "must_have": [
+            "Giao dịch viên",
+            "tp. hcm"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm việc làm bất động sản parttime khu vực Đà Nẵng",
+        "must_have": [
+            "Bất động sản",
+            "parttime",
+            "Đà Nẵng"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Staff kế toán fulltime ở hcm",
+        "must_have": [
+            "staff",
+            "Kế toán",
+            "fulltime",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Ứng tuyển chuyên viên dược phẩm thủ đô Hà Nội",
+        "must_have": [
+            "Chuyên viên",
+            "Dược phẩm",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm ui/ux design khu vực tp. hcm",
+        "must_have": [
+            "UI/UX Design",
+            "tp. hcm"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Ứng tuyển trưởng nhóm lập trình viên thủ đô hn",
+        "must_have": [
+            "Trưởng nhóm",
+            "Lập trình viên",
+            "hn"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Chuyên viên kinh doanh thiết bị/vật tư y tế tại tp. hcm",
+        "must_have": [
+            "Chuyên viên",
+            "Kinh doanh thiết bị/vật tư y tế",
+            "tp. hcm"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm kỹ sư hiện trường khu vực thủ đô hn",
+        "must_have": [
+            "Kỹ sư hiện trường",
+            "hn"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Cần tìm job tài chính ở hcm",
+        "must_have": [
+            "Tài chính",
+            "hcm"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Nhân viên mảng kho vận hồ chí minh, hà nội lương cao",
+        "must_have": [
+            "Nhân viên",
+            "Kho vận",
+            "Hồ Chí Minh, Hà Nội",
+            "lương cao"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Ứng tuyển chuyên viên content marketing TP. Hồ Chí Minh",
+        "must_have": [
+            "Chuyên viên",
+            "Content Marketing",
+            "TP.Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Job b2c có mức lương từ 15 triệu",
+        "must_have": [
+            "B2C",
+            "Mức lương từ 15 triệu"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Chuyên viên logistic tại thủ đô Hà Nội",
+        "must_have": [
+            "Chuyên viên",
+            "Logistic",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Chuyên viên vận tải tại thủ đô Hà Nội",
+        "must_have": [
+            "Chuyên viên",
+            "Vận tải",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Chuyên viên mảng telesales ninh bình lương cao",
+        "must_have": [
+            "Chuyên viên",
+            "Telesales",
+            "Ninh Bình",
+            "lương cao"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tuyển thực tập sinh thu hồi nợ ở hà nội, đà nẵng",
+        "must_have": [
+            "Thực tập sinh",
+            "Thu hồi nợ",
+            "Hà Nội",
+            "Đà Nẵng"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tuyển thực tập sinh kế toán ở hà nội",
+        "must_have": [
+            "Thực tập sinh",
+            "Kế toán",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Ứng tuyển giáo viên âm nhạc hồ chí minh",
+        "must_have": [
+            "Giáo viên âm nhạc",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Staff hành chính tổng hợp fulltime ở hồ chí minh",
+        "must_have": [
+            "Staff",
+            "Hành chính tổng hợp",
+            "fulltime",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí trưởng nhóm kế toán làm việc tại tp. hcm",
+        "must_have": [
+            "Trưởng nhóm",
+            "Kế toán",
+            "tp. hcm"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Ứng tuyển thực tập sinh direct sales hồ chí minh",
+        "must_have": [
+            "Thực tập sinh",
+            "Direct Sales",
+            "Sales",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí chuyên viên tiếp thị số làm việc tại hà nội",
+        "must_have": [
+            "chuyên viên",
+            "tiếp thị số",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Ứng tuyển lao động nhà máy chế biến thủ đô hn",
+        "must_have": [
+            "Lao động",
+            "nhà máy",
+            "chế biến",
+            "hn"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí giám đốc bộ phận tài chính làm việc tại Hồ Chí Minh",
+        "must_have": [
+            "Giám đốc",
+            "Tài chính",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí team lead data analyst làm việc tại Cần Thơ",
+        "must_have": [
+            "team lead",
+            "Data Analyst",
+            "Cần Thơ"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Staff designer fulltime ở hà nội",
+        "must_have": [
+            "Staff",
+            "Design",
+            "fulltime",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí leader kế toán làm việc tại thủ đô hn",
+        "must_have": [
+            "Leader",
+            "Kế toán",
+            "hn"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Cần tìm job kế toán sản xuất ở ninh bình",
+        "must_have": [
+            "Kế toán sản xuất",
+            "Ninh Bình"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm việc làm thực tập sinh direct sales khu vực miền bắc",
+        "must_have": [
+            "Thực tập sinh",
+            "Direct Sales",
+            "miền bắc"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tài xế lái xe cho sếp tại tp. hcm",
+        "must_have": [
+            "Tài xế",
+            "Lái xe cho sếp",
+            "tp. hcm"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm kế toán tổng hợp parttime khu vực hồ chí minh",
+        "must_have": [
+            "Kế toán tổng hợp",
+            "parttime",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Nhân viên bất động sản fulltime ở hồ chí minh",
+        "must_have": [
+            "Nhân viên",
+            "Bất động sản",
+            "fulltime",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 3
+    },
+    {
+        "query": "Tìm việc làm kỹ sư hvac khu vực hà nội",
+        "must_have": [
+            "Kỹ sư HVAC",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Tìm vị trí quản lý bộ phận điện tử làm việc tại quảng ninh",
+        "must_have": [
+            "Quản lý",
+            "Điện tử",
+            "Quảng Ninh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Job frontend developer không yêu cầu kinh nghiệm tại hà nội",
+        "must_have": [
+            "Frontend Developer",
+            "không yêu cầu kinh nghiệm",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm tư vấn tuyển sinh khu vực hồ chí minh",
+        "must_have": [
+            "Tư vấn tuyển sinh/khoá học",
+            "Hồ Chí Minh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Cần tìm job content creator ở hà nội",
+        "must_have": [
+            "Content Creator",
+            "Hà Nội"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Job giám đốc phòng ban b2b tphcm",
+        "must_have": [
+            "Giám đốc",
+            "B2B",
+            "tphcm"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Chuyên viên mảng kỹ sư phần mềm làm việc online tại thủ đô Hà Nội",
+        "must_have": [
+            "Chuyên viên",
+            "kỹ sư phần mềm",
+            "online",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Job digital marketing social media TP. Hồ Chí Minh",
+        "must_have": [
+            "Digital Marketing",
+            "Social Media",
+            "TP. Hồ Chí Minh"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Job kế toán fulltime/parttime tại thủ đô Hà Nội",
+        "must_have": [
+            "Kế toán",
+            "fulltime/parttime",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Staff chạy ads tại hà nội",
+        "must_have": [
+            "Staff",
+            "Chạy Ads",
+            "Hà Nội",
+            "quảng cáo"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Staff kế toán tại thủ đô Hà Nội",
+        "must_have": [
+            "Staff",
+            "Kế toán",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm logistic vận tải khu vực bắc ninh",
+        "must_have": [
+            "Logistic",
+            "Bắc Ninh"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Ứng tuyểnnhân viên bán hàng tại showroom hà nội",
+        "must_have": [
+            "Nhân viên",
+            "Bán hàng tại showroom",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm vị trí trưởng nhóm digital marketing làm việc tại hà nội",
+        "must_have": [
+            "Trưởng nhóm",
+            "Digital Marketing",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tuyển trưởng nhóm phòng IT ở Hà Nội",
+        "must_have": [
+            "Trưởng nhóm",
+            "IT",
+            "Hà Nội"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Tìm việc làm chăm sóc khách hàng bất động sản",
+        "must_have": [
+            "Chăm sóc khách hàng",
+            "Bất động sản"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Công nhân cơ khí fulltime ở hn",
+        "must_have": [
+            "Công nhân",
+            "Cơ khí",
+            "fulltime",
+            "hn"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Chuyên viên tự động hóa ở tphcm",
+        "must_have": [
+            "Chuyên viên",
+            "Tự động hóa",
+            "tphcm"
+        ],
+        "min_match": 2
+    },
+    {
+        "query": "Cần tìm job embedded engineer ở thủ đô hn",
+        "must_have": [
+            "Embedded Engineer",
+            "hn"
+        ],
+        "min_match": 1
+    },
+    {
+        "query": "Cần tìm job lập trình nhúng Đà Nẵng",
+        "must_have": [
+            "Lập trình nhúng",
+            "Đà Nẵng"
+        ],
+        "min_match": 1
+    }
+]
